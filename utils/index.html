@@ -273,7 +273,7 @@ The following annotations are supported.
 For all other OpenApi configs the <code>glconf.json</code> is used.</p>
 <h2 id="installation">Installation</h2>
 <ul>
-<li><code>npm i  @grandlinex/docs-to-openapi</code></li>
+<li><code>npm i -g @grandlinex/docs-to-openapi</code></li>
 </ul>
 <h3 id="config-fields">Config fields</h3>
 <ul>
@@ -322,6 +322,28 @@ For all other OpenApi configs the <code>glconf.json</code> is used.</p>
 <blockquote>
 <p>If you install the package as a dependency then you can use the <code>makeOpenApi</code> command.</p>
 </blockquote>
+<h2 id="cli-parameter-version-050">CLI Parameter (version &gt;= 0.5.0)</h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>--html</code></td>
+<td>Creates a swagger.html file (Standalone SwaggerUI)</td>
+<td><code>npx @grandlinex/docs-to-openapi --html</code></td>
+</tr>
+<tr>
+<td><code>--serve</code></td>
+<td>Serves the OpenApi Spec on port 9000</td>
+<td><code>npx @grandlinex/docs-to-openapi --serve</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="config-file-examples">Config File Examples:</h2>
 <h4 id="config-01-glconfjson-minimal">Config 01 <code>glconf.json</code> (minimal)</h4>
 <pre><code>  {
