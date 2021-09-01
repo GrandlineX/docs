@@ -1,9 +1,15 @@
-site_name: GrandLineX Kernel
+site_name: GrandLineX Project
 site_url: https://grandlinex.github.io/docs
 nav:
   - Home: index.md
   - Modules: modules.md
   - Utils: utils.md
+
 theme:
-  name: mkdocs
-  nav_style: dark
+  name: material
+  logo: img/sq-black.png
+  palette:
+    primary: black
+    accent: red
+extra:
+  homepage: https://github.com/grandlinex/
