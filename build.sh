@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 mkdocs build
-mv site/* .
-rmdir site
+cp -rf site/* .
+rm -rf site

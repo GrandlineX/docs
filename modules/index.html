@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
-        <link rel="canonical" href="https://grandlinex.github.io/docs/">
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>GrandLineX Kernel</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="canonical" href="https://grandlinex.github.io/docs/modules/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Modules - GrandLineX Kernel</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href=".">GrandLineX Kernel</a>
+                <a class="navbar-brand" href="..">GrandLineX Kernel</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,14 +33,14 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
                             <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
+                                <a href="./" class="nav-link">Modules</a>
                             </li>
                             <li class="navitem">
-                                <a href="modules/" class="nav-link">Modules</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="utils/" class="nav-link">Utils</a>
+                                <a href="../utils/" class="nav-link">Utils</a>
                             </li>
                         </ul>
 
@@ -51,12 +51,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href=".." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="modules/" class="nav-link">
+                                <a rel="next" href="../utils/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -78,8 +78,25 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#welcome-to-the-grandlinex-documentation" class="nav-link">Welcome to the GrandLineX Documentation</a>
+            <li class="nav-item" data-level="1"><a href="#module-list" class="nav-link">Module List</a>
               <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#kernel" class="nav-link">Kernel</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#kernel-features" class="nav-link">Kernel features</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#documentation" class="nav-link">Documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#structure" class="nav-link">Structure</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -87,18 +104,30 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1> <img src="img/sq-black.png" alt="logo" width="64px" /> GrandLineX</h1>
-
-<h1 id="welcome-to-the-grandlinex-documentation">Welcome to the GrandLineX Documentation</h1>
-<blockquote>
-<p>GrandLineX is an out-of-the-box server framework on top of ExpressJs.
-Goto <a href="/docs/modules">Moduels</a> for details.</p>
-</blockquote>
-<h3 id="short-links">Short Links</h3>
+<h1 id="module-list">Module List</h1>
 <ul>
-<li><a href="/docs/modules/#kernel">Kernel</a></li>
-<li><a href="/docs/utils/#docs-to-openapi-v3">Docs to OpenApi</a></li>
-</ul></div>
+<li><a href="#kernel">Kernel</a></li>
+</ul>
+<h1 id="kernel">Kernel</h1>
+<p><a href="https://github.com/GrandlineX/kernel"><img alt="GitHub" src="https://badge.fury.io/gh/grandlinex%2Fkernel.svg" /></a>
+<a href="https://www.npmjs.com/package/@grandlinex/docs-to-openapi"><img alt="NPM" src="https://img.shields.io/static/v1?label=NPM&amp;message=Package&amp;color=red&amp;logo=NPM" /></a>
+<img alt="TS" src="https://img.shields.io/static/v1?label=Language&amp;message=TypeScript&amp;color=blue&amp;logo=TypeScript" />
+<img alt="Coverage" src="https://img.shields.io/static/v1?label=Coverage&amp;message=76%&amp;color=yellow&amp;logo=Jest" /></p>
+<h2 id="kernel-features">Kernel features</h2>
+<ul>
+<li>Extendable module structure</li>
+<li>Managed DB Connection</li>
+<li>Encrypted credential store</li>
+<li>Backend authorization with JWT </li>
+</ul>
+<h2 id="documentation">Documentation</h2>
+<h3 id="version-09x">Version 0.9.x</h3>
+<ol>
+<li><a href="/docs/kernel/v0.9.x">Kernel Docs</a></li>
+<li><a href="/docs/swagger?v=0.9.x">Kernel API - SwaggerUI</a></li>
+</ol>
+<h2 id="structure">Structure</h2>
+<p><img alt="st" src="../img/structure.svg" /></p></div>
             </div>
         </div>
 
@@ -107,11 +136,11 @@ Goto <a href="/docs/modules">Moduels</a> for details.</p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -176,8 +205,3 @@ Goto <a href="/docs/modules">Moduels</a> for details.</p>
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.2.2
-Build Date UTC : 2021-09-01 16:26:33.131152+00:00
--->

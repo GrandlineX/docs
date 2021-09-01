@@ -1,25 +1,12 @@
-# GrandLineX
+<h1> <img src="img/sq-black.png" alt="logo" width="64px" /> GrandLineX</h1>
 
-[![GitHub](https://badge.fury.io/gh/grandlinex%2Fkernel.svg)](https://github.com/GrandlineX/kernel)
-[![NPM](https://img.shields.io/static/v1?label=NPM&message=Package&color=red&logo=NPM)](https://www.npmjs.com/package/@grandlinex/docs-to-openapi)
-![TS](https://img.shields.io/static/v1?label=Language&message=TypeScript&color=blue&logo=TypeScript)
-![Coverage](https://img.shields.io/static/v1?label=Coverage&message=76%&color=yellow&logo=Jest)
+# Welcome to the GrandLineX Documentation
 
-## Description
 
-GrandLineX is an out-of-the-box server framework on top of ExpressJs.
+> GrandLineX is an out-of-the-box server framework on top of ExpressJs.
+> Goto [Moduels](/docs/modules) for details.
 
-## Documentation
+### Short Links
 
-1. [Kernel Docs v0.9.x](/docs/kernel/v0.9.x)
-2. [Kernel API - SwaggerUI](/docs/swagger)
-
- 
-## Structure
-![st](img/structure.svg)
-## Kernel features
-
-- Extendable module structure
-- Managed DB Connection
-- Encrypted credential store
-- Backend authorization with JWT 
+- [Kernel](/docs/modules/#kernel)
+- [Docs to OpenApi](/docs/utils/#docs-to-openapi-v3)

@@ -7,15 +7,15 @@
         
         
         
-        <link rel="shortcut icon" href="/kernel/img/favicon.ico">
+        <link rel="shortcut icon" href="/docs/img/favicon.ico">
         <title>GrandLineX Kernel</title>
-        <link href="/kernel/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/kernel/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/kernel/css/base.css" rel="stylesheet">
+        <link href="/docs/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/docs/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/docs/css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="/kernel/js/jquery-1.10.2.min.js" defer></script>
-        <script src="/kernel/js/bootstrap.min.js" defer></script>
+        <script src="/docs/js/jquery-1.10.2.min.js" defer></script>
+        <script src="/docs/js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -23,7 +23,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="/kernel/.">GrandLineX Kernel</a>
+                <a class="navbar-brand" href="/docs/.">GrandLineX Kernel</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -31,6 +31,18 @@
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="/docs/." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="/docs/modules/" class="nav-link">Modules</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="/docs/utils/" class="nav-link">Utils</a>
+                            </li>
+                        </ul>
 
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item">
@@ -38,9 +50,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a href="https://github.com/GrandlineX/kernel/" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -65,11 +74,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "/kernel/",
+            var base_url = "/docs/",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="/kernel/js/base.js" defer></script>
-        <script src="/kernel/search/main.js" defer></script>
+        <script src="/docs/js/base.js" defer></script>
+        <script src="/docs/search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">

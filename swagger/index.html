@@ -15,8 +15,11 @@
 <script>
     window.onload = function() {
         // Build a system
+        const urlParams = new URLSearchParams(window.location.search);
+        const version = urlParams.get('v');
+        const url= "/docs/kernel/v"+version+"/openapi.yml"
         const ui = SwaggerUIBundle({
-            url: "/docs/kernel/v0.9.x/openapi.yml",
+            url,
             dom_id: '#swagger-ui',
             deepLinking: true,
             presets: [
