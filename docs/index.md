@@ -11,7 +11,7 @@ GrandLineX is an out-of-the-box server framework on top of ExpressJs.
 
 ## Documentation
 
-1. [Kernel Docs v0.9.x](/docs/swagger)
+1. [Kernel Docs v0.9.x](/docs/kernel/v0.9.x)
 2. [Kernel API - SwaggerUI](/docs/swagger)
 
  
