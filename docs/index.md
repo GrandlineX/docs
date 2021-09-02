@@ -9,4 +9,5 @@
 ### Short Links
 
 - [Kernel](/docs/modules/#kernel)
+- [Skeleton Project](/docs/modules/#quick-start-skeleton-project)
 - [Docs to OpenApi](/docs/utils/#docs-to-openapi-v3)

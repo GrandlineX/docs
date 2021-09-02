@@ -265,6 +265,40 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#quick-start-skeleton-project" class="md-nav__link">
+    Quick start (Skeleton Project)
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick start (Skeleton Project)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#includes" class="md-nav__link">
+    Includes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install" class="md-nav__link">
+    Install
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skeleton-project-commands" class="md-nav__link">
+    Skeleton project commands
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#manual-install-existing-project" class="md-nav__link">
     Manual install (Existing Project)
   </a>
@@ -365,6 +399,40 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#quick-start-skeleton-project" class="md-nav__link">
+    Quick start (Skeleton Project)
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick start (Skeleton Project)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#includes" class="md-nav__link">
+    Includes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install" class="md-nav__link">
+    Install
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skeleton-project-commands" class="md-nav__link">
+    Skeleton project commands
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#manual-install-existing-project" class="md-nav__link">
     Manual install (Existing Project)
   </a>
@@ -411,6 +479,63 @@
 </ol>
 <h3 id="structure">Structure</h3>
 <p><img alt="st" src="../img/structure.svg" /></p>
+<h3 id="quick-start-skeleton-project">Quick start (Skeleton Project)</h3>
+<h4 id="includes">Includes</h4>
+<ul>
+<li>Full <strong>Typescript</strong> project setup</li>
+<li><strong>Jest</strong> test and coverage config</li>
+<li>Docker-Compose file for <strong>Development Database</strong></li>
+<li><strong>ESLint</strong> config with AirBnB &amp; Prettier presets</li>
+<li>GrandLineX <strong>OpenApi</strong> generator config</li>
+<li>Example <strong>Kernel Extension</strong> code <code>@/src</code></li>
+</ul>
+<h4 id="install">Install</h4>
+<ol>
+<li>Clone <code>git clone https://github.com/GrandlineX/skeleton-project.git &amp;&amp; cd skeleton-project</code></li>
+<li>Install dependencies <code>npm install</code></li>
+<li>Start database <code>docker-compose up -d</code></li>
+<li>Build project <code>npm run build</code></li>
+<li>Build project <code>npm run start</code></li>
+</ol>
+<h4 id="skeleton-project-commands">Skeleton project commands</h4>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>npm run lint</code></td>
+<td>start ESLint</td>
+</tr>
+<tr>
+<td><code>npm run test</code></td>
+<td>start Jest test collection (creates db entry's)</td>
+</tr>
+<tr>
+<td><code>npm run test-converage</code></td>
+<td>start Jest test collection + coverage report (creates db entry's)</td>
+</tr>
+<tr>
+<td><code>npm run start-dev</code></td>
+<td>start dev script with disabled cors</td>
+</tr>
+<tr>
+<td><code>npm run makeDocs</code></td>
+<td>generates Typedoc documentation</td>
+</tr>
+<tr>
+<td><code>npm run makeSpec</code></td>
+<td>generates OpenApi spec <a href="https://grandlinex.github.io/docs/utils/#docs-to-openapi-v3">see</a></td>
+</tr>
+<tr>
+<td><code>npm run serveSpec</code></td>
+<td>generates OpenApi spec <a href="https://grandlinex.github.io/docs/utils/#docs-to-openapi-v3">see</a> + serve Swagger UI</td>
+</tr>
+</tbody>
+</table>
 <h3 id="manual-install-existing-project">Manual install (Existing Project)</h3>
 <ol>
 <li>Before we can use the GrandLineX Kernel we need to set up a PostgressDB.</li>

@@ -23,6 +23,38 @@
 ### Structure
 ![st](img/structure.svg)
 
+### Quick start (Skeleton Project)
+
+ 
+#### Includes
+
+- Full **Typescript** project setup
+- **Jest** test and coverage config
+- Docker-Compose file for **Development Database**
+- **ESLint** config with AirBnB & Prettier presets
+- GrandLineX **OpenApi** generator config
+- Example **Kernel Extension** code `@/src`
+
+#### Install
+
+1. Clone `git clone https://github.com/GrandlineX/skeleton-project.git && cd skeleton-project`
+2. Install dependencies `npm install`
+3. Start database `docker-compose up -d`
+4. Build project `npm run build`
+5. Build project `npm run start`
+
+#### Skeleton project commands
+
+|Command|Description|
+|---|---|
+|`npm run lint`| start ESLint |
+|`npm run test`| start Jest test collection (creates db entry's) |
+|`npm run test-converage`| start Jest test collection + coverage report (creates db entry's) |
+|`npm run start-dev`| start dev script with disabled cors |
+|`npm run makeDocs`| generates Typedoc documentation|
+|`npm run makeSpec`| generates OpenApi spec [see](https://grandlinex.github.io/docs/utils/#docs-to-openapi-v3)|
+|`npm run serveSpec`| generates OpenApi spec [see](https://grandlinex.github.io/docs/utils/#docs-to-openapi-v3) + serve Swagger UI|
+
 ### Manual install (Existing Project)
 1. Before we can use the GrandLineX Kernel we need to set up a PostgressDB.
 2. If you want to use an existing DB go to step 7. 
