@@ -1,25 +1,53 @@
 # Util List
 
+- [Project-Tool](#project-tool)
 - [Docs to OpenApi](#docs-to-openapi-v3)
 
 
-# Docs to OpenApi v.3
+---
+
+## Project-Tool 
+
+
+[![GitHub](https://badge.fury.io/gh/GrandlineX%2Fproject-tool.svg)](https://github.com/GrandlineX/project-tool)
+[![NPM](https://img.shields.io/static/v1?label=NPM&message=Package&color=red&logo=NPM)](https://www.npmjs.com/package/@grandlinex/project-tool)
+![TS](https://img.shields.io/static/v1?label=Language&message=TypeScript&color=blue&logo=TypeScript)
+
+### Description
+
+**Cli**  for the GrandLineX Project
+
+### Features
+
+- **Create new** GrandLineX **project** with customizable project setup. 
+- **Update** GrandLineX **packages**
+
+### Quick start
+
+1. Run `npm i -g @grandlinex/project-tool`
+2. Start CLI `gltool -i` or `npx @grandlinex/project-tool -i`
+
+---
+
+## Docs to OpenApi v.3
 
 [![GitHub](https://badge.fury.io/gh/GrandlineX%2Fdocs-to-openapi.svg)](https://github.com/GrandlineX/docs-to-openapi)
 [![NPM](https://img.shields.io/static/v1?label=NPM&message=Package&color=red&logo=NPM)](https://www.npmjs.com/package/@grandlinex/docs-to-openapi)
 ![TS](https://img.shields.io/static/v1?label=Language&message=TypeScript&color=blue&logo=TypeScript)
 
-## Description
+### Description
 
-This Project converts comments in your code or in your dependencies to an OpenApi Spec.
-The following annotations are supported.
+This Project **converts comments** in your code or in your dependencies **to an OpenApi Spec**.
+The following annotations are supported:
+
+
 - `@openapi`
 - `@swagger`
 
 All comments with these annotations will be pasted as a singe element in the path definition array.
 For all other OpenApi configs the `glconf.json` is used.
 
-## Installation
+### Installation
 
 - `npm i -g @grandlinex/docs-to-openapi`
 
@@ -34,7 +62,7 @@ For all other OpenApi configs the `glconf.json` is used.
 - outPutDir (optional)
     - Relative path for the Spec. output.
 
-## Quick Start
+### Quick Start
 
 1. Create a `glconf.json` in the root dir of your project (see config 01 or 02).
 2. Edit your base Config file like in the official [Swagger Doc](https://swagger.io/specification/)
@@ -58,7 +86,7 @@ For all other OpenApi configs the `glconf.json` is used.
 
 > If you install the package as a dependency then you can use the `makeOpenApi` command.
 
-## CLI Parameter (version >= 0.5.0)
+### CLI Parameter (version >= 0.5.0)
 
 |Parameter|Description|command|
 |---|---|---|
@@ -66,7 +94,7 @@ For all other OpenApi configs the `glconf.json` is used.
 |`--serve`|Serves the OpenApi Spec on port 9000|`npx @grandlinex/docs-to-openapi --serve`|
 
 
-## Config File Examples:
+### Config File Examples:
 
 #### Config 01 `glconf.json` (minimal)
 

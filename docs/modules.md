@@ -35,10 +35,17 @@
 - GrandLineX **OpenApi** generator config
 - Example **Kernel Extension** code `@/src`
 
-#### Install
+#### Variant 1 (GrandlineX cli)
+
+1. Run `npm i @grandlinex/project-tool -g`
+2. Start cli `gltool -i`
+3. Select the new project option.
+4. Follow the instructions.
+
+#### Variant 2 (clone project)
 
 1. Clone `git clone https://github.com/GrandlineX/skeleton-project.git && cd skeleton-project`
-2. Install dependencies `npm install`
+2. Install dependencies `npm instsall`
 3. Start database `docker-compose up -d`
 4. Build project `npm run build`
 5. Build project `npm run start`
