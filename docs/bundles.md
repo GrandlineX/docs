@@ -14,16 +14,16 @@ GrandLineX is an out-of-the-box server framework.
 
 
 #### Status
-![Quality Gate Status](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-ELogger&metric=alert_status)
-![Security Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-ELogger&metric=security_rating)
-![Maintainability Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-ELogger&metric=sqale_rating)
-![Reliability Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-ELogger&metric=reliability_rating)
-![Coverage](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-ELogger&metric=coverage)
+![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-elogger&metric=alert_status)
+![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-elogger&metric=security_rating)
+![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-elogger&metric=sqale_rating)
+![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-elogger&metric=reliability_rating)
+![Coverage](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-elogger&metric=coverage)
 
 #### Issues
-![Bugs](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-ELogger&metric=bugs)
-![Vulnerabilities](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-ELogger&metric=vulnerabilities)
-![Code Smells](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-ELogger&metric=code_smells)
+![Bugs](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-elogger&metric=bugs)
+![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-elogger&metric=vulnerabilities)
+![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-elogger&metric=code_smells)
 
 ### Documentation
 - [Documentation](https://grandlinex.github.io/bundle-elogger/)
@@ -45,16 +45,16 @@ GrandLineX is an out-of-the-box server framework.
 
 
 #### Status
-![Quality Gate Status](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Postgresql&metric=alert_status)
-![Security Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Postgresql&metric=security_rating)
-![Maintainability Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Postgresql&metric=sqale_rating)
-![Reliability Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Postgresql&metric=reliability_rating)
-![Coverage](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Postgresql&metric=coverage)
+![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-postgresql&metric=alert_status)
+![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-postgresql&metric=security_rating)
+![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-postgresql&metric=sqale_rating)
+![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-postgresql&metric=reliability_rating)
+![Coverage](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-postgresql&metric=coverage)
 
 #### Issues
-![Bugs](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Postgresql&metric=bugs)
-![Vulnerabilities](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Postgresql&metric=vulnerabilities)
-![Code Smells](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Postgresql&metric=code_smells)
+![Bugs](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-postgresql&metric=bugs)
+![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-postgresql&metric=vulnerabilities)
+![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-postgresql&metric=code_smells)
 
 ### Documentation
 - [Documentation](https://grandlinex.github.io/bundle-postgresql/)
@@ -76,16 +76,16 @@ GrandLineX is an out-of-the-box server framework.
 
 
 #### Status
-![Quality Gate Status](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-SQLight&metric=alert_status)
-![Security Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-SQLight&metric=security_rating)
-![Maintainability Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-SQLight&metric=sqale_rating)
-![Reliability Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-SQLight&metric=reliability_rating)
-![Coverage](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-SQLight&metric=coverage)
+![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-sqlight&metric=alert_status)
+![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-sqlight&metric=security_rating)
+![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-sqlight&metric=sqale_rating)
+![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-sqlight&metric=reliability_rating)
+![Coverage](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-sqlight&metric=coverage)
 
 #### Issues
-![Bugs](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-SQLight&metric=bugs)
-![Vulnerabilities](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-SQLight&metric=vulnerabilities)
-![Code Smells](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-SQLight&metric=code_smells)
+![Bugs](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-sqlight&metric=bugs)
+![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-sqlight&metric=vulnerabilities)
+![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-sqlight&metric=code_smells)
 
 
 ### Documentation
@@ -109,16 +109,16 @@ GrandLineX is an out-of-the-box server framework.
 
 
 #### Status
-![Quality Gate Status](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Redis&metric=alert_status)
-![Security Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Redis&metric=security_rating)
-![Maintainability Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Redis&metric=sqale_rating)
-![Reliability Rating](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Redis&metric=reliability_rating)
-![Coverage](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Redis&metric=coverage)
+![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-redis&metric=alert_status)
+![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-redis&metric=security_rating)
+![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-redis&metric=sqale_rating)
+![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-redis&metric=reliability_rating)
+![Coverage](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-redis&metric=coverage)
 
 #### Issues
-![Bugs](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Redis&metric=bugs)
-![Vulnerabilities](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Redis&metric=vulnerabilities)
-![Code Smells](https://pop.echo4.eu/api/project_badges/measure?project=GrandLineX-Bundle-Redis&metric=code_smells)
+![Bugs](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-redis&metric=bugs)
+![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-redis&metric=vulnerabilities)
+![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=GrandlineX_bundle-redis&metric=code_smells)
 
 
 
