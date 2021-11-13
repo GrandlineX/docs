@@ -2,7 +2,9 @@ site_name: GrandLineX Project
 site_url: https://grandlinex.github.io/docs
 nav:
   - Home: index.md
-  - Modules: modules.md
+  - Concepts: concepts.md
+  - Kernel Packages: kernel-packages.md
+  - Bundles: bundles.md
   - Utils: utils.md
 
 theme:

@@ -68,19 +68,22 @@ For all other OpenApi configs the `glconf.json` is used.
 2. Edit your base Config file like in the official [Swagger Doc](https://swagger.io/specification/)
 3. Add a Comment to your soruce code in yml syntax like:
 
-            /**
-             * @openapi
-             * /ping:
-             *   get:
-             *     summary: ping
-             *     tags:
-             *       - basic
-             *     responses:
-             *       200:
-             *         description: OK
-             *       401:
-             *         description: not authorized
-             */
+```typescript
+/**
+ * @openapi
+ * /ping:
+ *   get:
+ *     summary: ping
+ *     tags:
+ *       - basic
+ *     responses:
+ *       200:
+ *         description: OK
+ *       401:
+ *         description: not authorized
+ */
+```
+
 
 4. run `npx @grandlinex/docs-to-openapi`
 
@@ -98,56 +101,59 @@ For all other OpenApi configs the `glconf.json` is used.
 
 #### Config 01 `glconf.json` (minimal)
 
-
-      {
-        "rootDir": "./src",
-        "filetypes": ["ts","js"],
-        "externalModules": [],
-        "baseConfig": {
-          "info": {
-            "title": "Hello World",
-            "version": "1.0.0",
-            "description": "A sample API"
-          },
-          "servers": [
-            {
-              "url": "http://localhost:9257"
-            }
-          ]
+```json
+  {
+    "rootDir": "./src",
+    "filetypes": ["ts","js"],
+    "externalModules": [],
+    "baseConfig": {
+      "info": {
+        "title": "Hello World",
+        "version": "1.0.0",
+        "description": "A sample API"
+      },
+      "servers": [
+        {
+          "url": "http://localhost:9257"
         }
-      }
+      ]
+    }
+  }
+```
 
 #### Config 02 `glconf.json` (Bearer JWT)
-
+```json
+  {
+  "rootDir": "./src",
+  "filetypes": ["ts","js"],
+  "externalModules": ["./node_modules/module_a","./node_modules/module_b"],
+  "outPutDir": "./dist",
+  "baseConfig": {
+    "info": {
+      "title": "Hello World",
+      "version": "1.0.0",
+      "description": "A sample API"
+    },
+    "servers": [
       {
-        "rootDir": "./src",
-        "filetypes": ["ts","js"],
-        "externalModules": ["./node_modules/module_a","./node_modules/module_b"],
-        "outPutDir": "./dist",
-        "baseConfig": {
-          "info": {
-            "title": "Hello World",
-            "version": "1.0.0",
-            "description": "A sample API"
-          },
-          "servers": [
-            {
-              "url": "http://localhost:9257"
-            }
-          ],
-          "security": [
-            {
-              "bearerAuth": []
-            }
-          ],
-          "components": {
-            "securitySchemes": {
-              "bearerAuth": {
-                "type": "http",
-                "scheme": "bearer",
-                "bearerFormat": "JWT"
-              }
-            }
-          }
+        "url": "http://localhost:9257"
+      }
+    ],
+    "security": [
+      {
+        "bearerAuth": []
+      }
+    ],
+    "components": {
+      "securitySchemes": {
+        "bearerAuth": {
+          "type": "http",
+          "scheme": "bearer",
+          "bearerFormat": "JWT"
         }
       }
+    }
+  }
+}
+```
+      
