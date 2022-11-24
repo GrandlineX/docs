@@ -31,5 +31,11 @@ theme:
   palette:
     scheme: default
 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 extra:
   homepage: https://www.grandlinex.com/
