@@ -27,3 +27,29 @@
 
 ### Documentation
 - [Documentation](https://www.grandlinex.com/bundle-elogger/)
+
+### Installation
+Install the package.
+```bash
+npm install @grandlinex/bundle-elogger
+```
+
+
+Register the Logger in existing kernel
+```typescript
+
+import { CoreKernel } from '@grandlinex/core';
+import ELogger from '@grandlinex/bundle-elogger';
+
+export default class ExampleKernel extends CoreKernel<any> {
+    constructor() {
+        super({
+            // ... other properties
+            logger: (k) => new ELogger(k),
+        });
+        
+    }
+}
+
+```
+Finally register `ExampleModule` to the kernel.

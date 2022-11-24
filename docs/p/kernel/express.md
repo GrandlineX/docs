@@ -27,3 +27,8 @@ GrandLineX is an out-of-the-box server framework on top of `ExpressJs`.
 
 ### Documentation
 - [Documentation](https://www.grandlinex.com/kernel/)
+
+
+### Installation
+
+- [See @GettingStarted](/docs/getting_started/electron)

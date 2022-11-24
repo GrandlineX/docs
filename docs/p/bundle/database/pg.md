@@ -27,3 +27,61 @@
 
 ### Documentation
 - [Documentation](https://www.grandlinex.com/bundle-postgresql/)
+
+
+### Installation
+Install the package.
+```bash
+npm install @grandlinex/bundle-postgresql
+```
+
+Add the database configuration to your `.env` file or directly in kernel config store.
+```dotenv
+POSTGRES_PASSWORD=<** password **>
+POSTGRES_USER=<** user **>
+DBPATH=<** ip or host **>
+DBPORT=<** port **>
+``` 
+
+Create a new DatabaseConnector Class: `ExampleDb.ts`
+
+```typescript
+import { CoreKernelModule } from '@grandlinex/core';
+// Import the DatabaseConnector Class.
+import PGCon from '@grandlinex/bundle-postgresql';
+
+export default class ExampleDb extends PGCon {
+    
+    constructor(mod: CoreKernelModule<any, any, any, any, any>) {
+        super(mod, '0'); // pass the module and the version of the database
+        // register entities or migrations here
+    }
+
+    async initNewDB() {
+        // init stuff 
+    }
+}
+```
+
+Register the DatabaseConnector in module :`ExampleModule.ts`
+```typescript
+
+import { CoreKernelModule, ICoreKernel } from '@grandlinex/core';
+import ExampleDb from './ExampleDb';
+
+export default class ExampleModule extends CoreKernelModule<any, ExampleDb, any, any, any> {
+    constructor(kernel:ICoreKernel) {
+        super('example_module', kernel);
+        // add other services or actions 
+    }
+
+    async initModule() :Promise<void> {
+        // register the database connector
+        this.setDb(new ExampleDb(this));
+        // register other resources
+
+    }
+}
+
+```
+Finally register `ExampleModule` to the kernel.

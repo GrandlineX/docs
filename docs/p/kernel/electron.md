@@ -27,4 +27,7 @@ GrandLineX is an out-of-the-box server framework on top of `ElectronJS`.
 
 ### Documentation
 - [Documentation](https://www.grandlinex.com/e-kernel/)
- 
+
+### Installation
+
+- [See @GettingStarted](/docs/getting_started/electron)

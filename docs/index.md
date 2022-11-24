@@ -8,10 +8,8 @@
 > Goto [intoduction](/docs/introduction/) for details.
 
 ### Short Links
-
-- [Kernel Packages](/docs/kernel-packages/)
-- [Bundles](/docs/bundles/)
-- [Project-Tool](/docs/utils/#project-tool)
-- [Docs to OpenApi](/docs/utils/#docs-to-openapi-v3) 
+- [Intoduction](/docs/introduction/)
+- [Project Page](https://www.grandlinex.com/)
+- [Project-Tool](/docs/utils/#project-tool) 
 - [Sonar Cloud](https://sonarcloud.io/organizations/grandlinex/projects) 
-- [Project Page](https://www.grandlinex.com/) 
+ 
