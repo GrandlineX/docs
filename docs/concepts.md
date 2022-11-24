@@ -1,5 +1,4 @@
 ## Structure
-![st](img/structure.svg)
 
 ## Quick start (Skeleton Project - ExpressKernel Pack)
 
@@ -37,8 +36,8 @@
 |`npm run test-converage`| start Jest test collection + coverage report (creates db entry's) |
 |`npm run start-dev`| start dev script with disabled cors |
 |`npm run makeDocs`| generates Typedoc documentation|
-|`npm run makeSpec`| generates OpenApi spec [see](https://grandlinex.github.io/docs/utils/#docs-to-openapi-v3)|
-|`npm run serveSpec`| generates OpenApi spec [see](https://grandlinex.github.io/docs/utils/#docs-to-openapi-v3) + serve Swagger UI|
+|`npm run makeSpec`| generates OpenApi spec [see](https://www.grandlinex.com/docs/utils/#docs-to-openapi-v3)|
+|`npm run serveSpec`| generates OpenApi spec [see](https://www.grandlinex.com/docs/utils/#docs-to-openapi-v3) + serve Swagger UI|
 
 ## Manual install (Existing Project)
 1. Before we can use the GrandLineX Kernel we need to set up a PostgressDB.

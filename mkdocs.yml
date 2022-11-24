@@ -1,17 +1,35 @@
-site_name: GrandLineX Project
+site_name: GrandLineX
 site_url: https://grandlinex.github.io/docs
 nav:
   - Home: index.md
-  - Concepts: concepts.md
-  - Kernel Packages: kernel-packages.md
-  - Bundles: bundles.md
+  - Introduction: introduction.md
+  - Getting Started:
+    - Express: getting_started/express.md
+    - Electron: getting_started/electron.md
+  - Concepts: concepts/basic.md
+  - Packages:
+      - Kernel Packages:
+        - Core: p/kernel/core.md
+        - Express: p/kernel/express.md
+        - Electron: p/kernel/electron.md
+      - Modules:
+          - Database:
+              - Postgres: p/bundle/database/pg.md
+              - Sqlite: p/bundle/database/sql.md
+          - Cache:
+              - Redis: p/bundle/cache/redis.md
+          - Logger:
+              - Electron Logger: p/bundle/logger/elogger.md
+
   - Utils: utils.md
 
+extra_css:
+  - style/index.css
 theme:
   name: material
-  logo: img/sq-black.png
+  logo: img/logo.svg
   palette:
-    primary: black
-    accent: red
+    scheme: default
+
 extra:
-  homepage: https://grandlinex.github.io/
+  homepage: https://www.grandlinex.com/
