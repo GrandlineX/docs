@@ -8,9 +8,9 @@
       
       
       
-        <link rel="canonical" href="https://grandlinex.github.io/docs/concepts/">
+        <link rel="canonical" href="https://grandlinex.github.io/docs/concepts/basic/">
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
     
     
@@ -19,10 +19,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.472b142f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.472b142f.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.08040f6c.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.08040f6c.min.css">
         
       
       
@@ -39,9 +39,9 @@
       
     
     
-      <link rel="stylesheet" href="../style/index.css">
+      <link rel="stylesheet" href="../../style/index.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#structure" class="md-skip">
+        <a href="#basic-concepts" class="md-skip">
           Skip to content
         </a>
       
@@ -82,7 +82,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="https://www.grandlinex.com/" title="GrandLineX" class="md-header__button md-logo" aria-label="GrandLineX" data-md-component="logo">
       
-  <img src="../img/logo.svg" alt="logo">
+  <img src="../../img/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -167,7 +167,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://www.grandlinex.com/" title="GrandLineX" class="md-nav__button md-logo" aria-label="GrandLineX" data-md-component="logo">
       
-  <img src="../img/logo.svg" alt="logo">
+  <img src="../../img/logo.svg" alt="logo">
 
     </a>
     GrandLineX
@@ -183,7 +183,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -198,7 +198,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../introduction/" class="md-nav__link">
+      <a href="../../introduction/" class="md-nav__link">
         Introduction
       </a>
     </li>
@@ -239,7 +239,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting_started/express/" class="md-nav__link">
+      <a href="../../getting_started/express/" class="md-nav__link">
         Express
       </a>
     </li>
@@ -253,7 +253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting_started/electron/" class="md-nav__link">
+      <a href="../../getting_started/electron/" class="md-nav__link">
         Electron
       </a>
     </li>
@@ -273,11 +273,79 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="basic/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Concepts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Concepts
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-structure" class="md-nav__link">
+    Project Structure
+  </a>
+  
+    <nav class="md-nav" aria-label="Project Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-kernel" class="md-nav__link">
+    The Kernel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-modules" class="md-nav__link">
+    The Modules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-bridges" class="md-nav__link">
+    The Bridges
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -342,7 +410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../p/kernel/core/" class="md-nav__link">
+      <a href="../../p/kernel/core/" class="md-nav__link">
         Core
       </a>
     </li>
@@ -356,7 +424,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../p/kernel/express/" class="md-nav__link">
+      <a href="../../p/kernel/express/" class="md-nav__link">
         Express
       </a>
     </li>
@@ -370,7 +438,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../p/kernel/electron/" class="md-nav__link">
+      <a href="../../p/kernel/electron/" class="md-nav__link">
         Electron
       </a>
     </li>
@@ -443,7 +511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../p/bundle/database/pg/" class="md-nav__link">
+      <a href="../../p/bundle/database/pg/" class="md-nav__link">
         Postgres
       </a>
     </li>
@@ -457,7 +525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../p/bundle/database/sql/" class="md-nav__link">
+      <a href="../../p/bundle/database/sql/" class="md-nav__link">
         Sqlite
       </a>
     </li>
@@ -504,7 +572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../p/bundle/cache/redis/" class="md-nav__link">
+      <a href="../../p/bundle/cache/redis/" class="md-nav__link">
         Redis
       </a>
     </li>
@@ -551,7 +619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../p/bundle/logger/elogger/" class="md-nav__link">
+      <a href="../../p/bundle/logger/elogger/" class="md-nav__link">
         Electron Logger
       </a>
     </li>
@@ -587,7 +655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../utils/" class="md-nav__link">
+      <a href="../../utils/" class="md-nav__link">
         Utils
       </a>
     </li>
@@ -611,6 +679,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -619,57 +689,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#structure" class="md-nav__link">
-    Structure
+  <a href="#project-structure" class="md-nav__link">
+    Project Structure
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quick-start-skeleton-project-expresskernel-pack" class="md-nav__link">
-    Quick start (Skeleton Project - ExpressKernel Pack)
-  </a>
-  
-    <nav class="md-nav" aria-label="Quick start (Skeleton Project - ExpressKernel Pack)">
+    <nav class="md-nav" aria-label="Project Structure">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#includes" class="md-nav__link">
-    Includes
+  <a href="#the-kernel" class="md-nav__link">
+    The Kernel
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#variant-1-grandlinex-cli" class="md-nav__link">
-    Variant 1 (GrandlineX cli)
+  <a href="#the-modules" class="md-nav__link">
+    The Modules
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#variant-2-clone-project" class="md-nav__link">
-    Variant 2 (clone project)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#skeleton-project-commands" class="md-nav__link">
-    Skeleton project commands
+  <a href="#the-bridges" class="md-nav__link">
+    The Bridges
   </a>
   
 </li>
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manual-install-existing-project" class="md-nav__link">
-    Manual install (Existing Project)
-  </a>
   
 </li>
       
@@ -688,128 +737,69 @@
                   
 
 
-  <h1>Concepts</h1>
-
-<h2 id="structure">Structure</h2>
-<h2 id="quick-start-skeleton-project-expresskernel-pack">Quick start (Skeleton Project - ExpressKernel Pack)</h2>
-<h3 id="includes">Includes</h3>
+<h1 id="basic-concepts">Basic Concepts</h1>
+<p>GrandLineX is a framework for building Web APIs, Electron Apps and all kinds of server environments.
+It comes with its own object-relational mapping (ORM) and manny other features.</p>
+<h2 id="project-structure">Project Structure</h2>
+<p>All GrandLineX projects have the same basic structure. The following diagram shows the most important components.</p>
+<p><img alt="st" src="../../img/structure.svg" /></p>
+<h3 id="the-kernel">The Kernel</h3>
+<p>The kernel is the heart or a GLX-Project. It serves as a runtime environment for the modules. 
+It is the only component that is required to run a GLX-Project. 
+The kernel is responsible for the following tasks:</p>
 <ul>
-<li>Full <strong>Typescript</strong> project setup</li>
-<li><strong>Jest</strong> test and coverage config</li>
-<li>Docker-Compose file for <strong>Development Database</strong></li>
-<li><strong>ESLint</strong> config with AirBnB &amp; Prettier presets</li>
-<li>GrandLineX <strong>OpenApi</strong> generator config</li>
-<li>Example <strong>Kernel Extension</strong> code <code>@/src</code></li>
+<li>Manage the registered modules</li>
+<li>Serves a Configuration store, that contains shared inforation like environment variables.<ul>
+<li>The Config store can be prefilled from a <code>.env</code> file or the process environment.</li>
 </ul>
-<h3 id="variant-1-grandlinex-cli">Variant 1 (GrandlineX cli)</h3>
-<ol>
-<li>Run <code>npm i @grandlinex/project-tool -g</code></li>
-<li>Start cli <code>gltool -i</code></li>
-<li>Select the new project option.</li>
-<li>Follow the instructions.</li>
-</ol>
-<h3 id="variant-2-clone-project">Variant 2 (clone project)</h3>
-<ol>
-<li>Clone <code>git clone https://github.com/GrandlineX/skeleton-project.git &amp;&amp; cd skeleton-project</code></li>
-<li>Install dependencies <code>npm instsall</code></li>
-<li>Start database <code>docker-compose up -d</code></li>
-<li>Build project <code>npm run build</code></li>
-<li>Build project <code>npm run start</code></li>
-</ol>
-<h3 id="skeleton-project-commands">Skeleton project commands</h3>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>npm run lint</code></td>
-<td>start ESLint</td>
-</tr>
-<tr>
-<td><code>npm run test</code></td>
-<td>start Jest test collection (creates db entry's)</td>
-</tr>
-<tr>
-<td><code>npm run test-converage</code></td>
-<td>start Jest test collection + coverage report (creates db entry's)</td>
-</tr>
-<tr>
-<td><code>npm run start-dev</code></td>
-<td>start dev script with disabled cors</td>
-</tr>
-<tr>
-<td><code>npm run makeDocs</code></td>
-<td>generates Typedoc documentation</td>
-</tr>
-<tr>
-<td><code>npm run makeSpec</code></td>
-<td>generates OpenApi spec <a href="https://www.grandlinex.com/docs/utils/#docs-to-openapi-v3">see</a></td>
-</tr>
-<tr>
-<td><code>npm run serveSpec</code></td>
-<td>generates OpenApi spec <a href="https://www.grandlinex.com/docs/utils/#docs-to-openapi-v3">see</a> + serve Swagger UI</td>
-</tr>
-</tbody>
-</table>
-<h2 id="manual-install-existing-project">Manual install (Existing Project)</h2>
-<ol>
-<li>Before we can use the GrandLineX Kernel we need to set up a PostgressDB.</li>
-<li>If you want to use an existing DB go to step 7.</li>
-<li>A simple way to do this is to use a Docker container.<blockquote>
-<p>If you dount have docker see <a href="https://docs.docker.com/get-docker/">here</a></p>
-</blockquote>
 </li>
-<li>Create a <code>docker-compose.yml</code> file.</li>
-<li>Use a editor</li>
-</ol>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="w">  </span><span class="nt">services</span><span class="p">:</span><span class="w"></span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">dev-db</span><span class="p">:</span><span class="w"></span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">      </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">postgres</span><span class="w"></span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">      </span><span class="nt">volumes</span><span class="p">:</span><span class="w"></span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">./data/db:/var/lib/postgresql/data</span><span class="w"></span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">      </span><span class="nt">env_file</span><span class="p">:</span><span class="w"></span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">.env</span><span class="w"></span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">      </span><span class="nt">ports</span><span class="p">:</span><span class="w"></span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5432:5432</span><span class="w"></span>
-</code></pre></div>
-<ol>
-<li>Or run
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>wget https://raw.githubusercontent.com/GrandlineX/kernel/main/docker-compose.yml -O docker-compose.yml
-</code></pre></div></li>
-<li>Create a <code>.env</code> file in the root folder of your Project</li>
-<li>
-<p>Use a editor
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nv">DBPATH</span><span class="o">=</span>localhost
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nv">DBPORT</span><span class="o">=</span><span class="m">5432</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="nv">POSTGRES_PASSWORD</span><span class="o">=</span>example
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="nv">POSTGRES_USER</span><span class="o">=</span>dbuser
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="nv">SERVER_PASSWOR</span><span class="o">=</span>pw
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="nv">PUBLICDOMAIN</span><span class="o">=</span>http://localhost
-</code></pre></div></p>
+<li>A basic encryption client for encrypting and decrypting data.<ul>
+<li>The encryption client can be used to encrypt and decrypt credentials and other critical information.</li>
+</ul>
 </li>
-<li>
-<p>Or run
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>wget https://raw.githubusercontent.com/GrandlineX/kernel/main/.env.example -O .env
-</code></pre></div></p>
-</li>
-<li>Now we can start the database with <code>docker-compose up -d</code> or <code>docker compose up -d</code></li>
-<li>Install the kernel package <code>npm i @grandlinex/kernel</code></li>
-<li>Create a Basic Kernel Object <code>main.ts/main.js</code></li>
-</ol>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="w"> </span><span class="k">import</span><span class="w"> </span><span class="nx">Kernel</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@grandlinex/kernel&quot;</span><span class="w"></span>
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w"> </span><span class="kd">const</span><span class="w"> </span><span class="nx">kernel</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nx">Kernel</span><span class="p">({</span><span class="w"></span>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="nx">appName</span><span class="o">:</span><span class="s2">&quot;AppName&quot;</span><span class="p">,</span><span class="w"> </span>
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="nx">appCode</span><span class="o">:</span><span class="s2">&quot;appcode&quot;</span><span class="p">,</span><span class="w"></span>
-<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w"> </span><span class="p">})</span><span class="w"></span>
-<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w"> </span><span class="nx">kernel</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span><span class="w"></span>
-</code></pre></div>
+<li>A basic logger interface that can be used to log information to the console.</li>
+</ul>
+<h3 id="the-modules">The Modules</h3>
+<p>The modules are the place where the feature functionality is implemented.
+They contain the following base resources, that are not required to be used:</p>
 <ol>
-<li>Start <code>node main.js</code> \ <code>ts-node main.ts</code></li>
+<li>Database Connection<ul>
+<li>The database connection is used to connect to a database and execute queries.</li>
+<li>Managed by the <strong>GLX-ORM</strong> (Object Relational Mapping).<ul>
+<li>The ORM is used to create,manage, update and delete the database entity's.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Cache Connection<ul>
+<li>The cache connection is used to connect to a cache server and execute queries.</li>
+</ul>
+</li>
+<li>Client <ul>
+<li>The Module client is used to define some module specific routines that can possibly be shared with other modules.</li>
+</ul>
+</li>
+<li>Presenter<ul>
+<li>The presenter can be used to create a web-server, an electron interface and more.</li>
+<li>The ExpressKernel contains a ready to use presenter/web-server on base of express.js.</li>
+<li>The ElectronKernel contains a ready to use presenter/electron-ipc emitter for Node to Frontend communication.</li>
+</ul>
+</li>
 </ol>
+<p>Then modules have two types of resources that can be registerd to the module:
+1. Service
+   - A Service is a class that can be used to implement business logic as a background task.
+   - The service can be used to implement a cronjob, a background task or a long running process.
+2. Action
+   - Defines a function that can be called from the outside.
+     - In case of the BaseAction of the Express-Kernel-Package, the action can be called from a HTTP request.
+     - In case of the BaseAction of the Electron-Kernel-Package, the action can be called from a Electron-IPC call.</p>
+<h3 id="the-bridges">The Bridges</h3>
+<p>Bridges are used to connect one module to another. 
+In the Module definition you can require other modules and use there resources in your module.
+If the Kernel startes it will resolve all dependencies of the modules, check for dependency cycles and create a bridge for each requirement.
+So the first bridges do is to connect two modules together, but they are also be used to set the module start up order.
+If the kernel notifies the modules to start up, all modules try to start up the same time, only modules that have required another module will wait until all required modules are completely started. </p>
 
 
 
@@ -825,6 +815,42 @@
       </main>
       
         <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../../getting_started/electron/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Electron" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Electron
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../p/kernel/core/" class="md-footer__link md-footer__link--next" aria-label="Next: Core" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Core
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -847,10 +873,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
       
     
   </body>
