@@ -20,7 +20,7 @@ nav:
               - Redis: p/bundle/cache/redis.md
           - Logger:
               - Electron Logger: p/bundle/logger/elogger.md
-
+      - React: p/react/react.md
   - Utils: utils.md
 
 extra_css:
